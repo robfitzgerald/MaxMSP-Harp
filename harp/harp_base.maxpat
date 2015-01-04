@@ -1264,19 +1264,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 163.0, 43.0, 242.0, 24.0 ],
-					"style" : "",
-					"text" : "open me to change sampler instruments"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -2028,7 +2015,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 552.25, 254.0, 112.0, 22.0 ],
+									"patching_rect" : [ 552.25, 254.0, 112.0, 35.0 ],
 									"style" : "",
 									"text" : "synth_note_loop.dat"
 								}

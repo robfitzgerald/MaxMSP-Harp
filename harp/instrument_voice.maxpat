@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 742.5, 307.0, 75.0, 22.0 ],
-					"presentation_rect" : [ 742.5, 306.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r #0_amp"
 				}
@@ -58,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 578.5, 307.0, 75.0, 22.0 ],
-					"presentation_rect" : [ 578.5, 307.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r #0_amp"
 				}
@@ -72,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 431.5, 307.0, 75.0, 22.0 ],
-					"presentation_rect" : [ 324.0, 309.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r #0_amp"
 				}
@@ -86,7 +83,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 273.5, 307.0, 75.0, 22.0 ],
-					"presentation_rect" : [ 276.0, 309.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r #0_amp"
 				}
@@ -346,7 +342,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "signal" ],
+					"outlettype" : [ "signal", "signal", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -452,7 +448,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
+									"outlettype" : [ "signal", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -522,9 +518,9 @@
 													"numinlets" : 5,
 													"numoutlets" : 4,
 													"outlettype" : [ "signal", "signal", "", "" ],
-													"patching_rect" : [ 120.0, 143.0, 138.0, 22.0 ],
+													"patching_rect" : [ 120.0, 143.0, 124.0, 22.0 ],
 													"style" : "",
-													"text" : "adsr~ 10 80 0.747 2000"
+													"text" : "adsr~ 10 40 0.747 50"
 												}
 
 											}
@@ -2279,10 +2275,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 105.0, 630.0, 47.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 2"
 				}
@@ -2308,10 +2300,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1064.0, 34.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -2357,6 +2345,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 630.0, 47.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -2372,10 +2364,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 38.0, 47.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -2719,6 +2707,29 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "ramp_to_next_value.maxpat",
+				"bootpath" : "~/Documents/Max 7/Library/contract/jen_lewin/MaxMSP-Harp/harp",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "remap_index_to_note.txt",
+				"bootpath" : "~/Documents/Max 7/Library/contract/jen_lewin/MaxMSP-Harp/harp",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "samplerN.maxpat",
+				"bootpath" : "~/Documents/Max 7/Library/contract/jen_lewin/MaxMSP-Harp/harp",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

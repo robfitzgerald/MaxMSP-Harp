@@ -1,0 +1,21 @@
+Korg NX5R synth sampling
+20150308
+
+CmbU:001 vel 115 program 176 88 001 "06 SMharp"
+CmbU:002 vel 115 program 176 88 002 "06 SMharp"
+CmbU:072 vel 115 program 176 88 072 "Whirly Pad"
+CmbU:089 vel 100 program 176 88 089 "Pacifica"
+GM-a:072 vel 115 program 176 00 072 "Clarinet"
+
+notes:
+
+from email, this was requested:
+"Combo U (bank) program # 88 
+Combo U (bank) program # 93
+Combo U (bank) program # 0
+Combo U (bank) program # 1
+Combo U (bank) program # 71"
+
+which we determined is off by 1.  CmbU089 where 88 was listed here, etc.
+confirmed by comparing with Arduino code.
+additionally, Arduino code only showed program 072 being called from the General MIDI bank, so to be careful, I recorded both the GM-a:072 and the CmbU:072 (Clarinet and Whirly_Pad).

@@ -6,6 +6,7 @@ CmbU:002 vel 115 program 176 88 002 "06 SMharp"
 CmbU:072 vel 115 program 176 88 072 "Whirly Pad"
 CmbU:089 vel 100 program 176 88 089 "Pacifica"
 GM-a:072 vel 115 program 176 00 072 "Clarinet"
+CmbU:094 vel 115 program 176 88 094 "AngelChoir"
 
 notes:
 
